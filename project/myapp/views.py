@@ -18,3 +18,33 @@ def admision(request):
 
 def event(request):
     return render(request, 'event.html')
+
+def f404(request):
+    return render(request, '404.html')
+
+def instituion_facilities(request):
+    return render(request, 'instituion_facilities.html')
+
+def event_details(request):
+    return render(request, 'event-details.html')
+
+def news_details(request):
+    return render(request, 'news-details.html')
+
+def news(request):
+    return render(request, 'news.html')
+
+def privacy(request):
+    return render(request, 'privacy.html')
+
+def staff(request):
+    return render(request, 'staff.html')
+
+def stater_page(request):
+    return render(request, 'stater-page.html')
+
+def terms_of_service(request):
+    return render(request, 'terms-of-service.html')
+
+def student_life(request):
+    return render(request, 'student-life.html')
