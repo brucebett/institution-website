@@ -41,10 +41,13 @@ def staff(request):
     return render(request, 'staff.html')
 
 def stater_page(request):
-    return render(request, 'stater-page.html')
+    return render(request, 'starter-page.html')
 
 def terms_of_service(request):
     return render(request, 'terms-of-service.html')
 
 def student_life(request):
     return render(request, 'student-life.html')
+
+def about(request):
+    return render(request, 'about.html')
