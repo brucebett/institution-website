@@ -51,3 +51,6 @@ def student_life(request):
 
 def about(request):
     return render(request, 'about.html')
+
+def institution_facilities(request):
+    return render(request, 'institution-facilities.html')

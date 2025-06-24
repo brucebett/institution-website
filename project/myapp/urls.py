@@ -18,4 +18,5 @@ urlpatterns = [
     path('stater_page/', views.stater_page, name='stater_page'),
     path('student_life/', views.student_life, name='student_life'),
     path('terms_of_service/', views.terms_of_service, name='terms_of_service'),
+    path('institution_facilities/', views.institution_facilities, name='institution_facilities'),
 ]
