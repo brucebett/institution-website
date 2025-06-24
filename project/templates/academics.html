@@ -7,7 +7,7 @@ academics page
 
 {% block body %}
 
-    <div class="page-title dark-background" style="background-image: url(assets/img/education/showcase-1.webp);">
+    <div class="page-title dark-background" style="background-image: url({% static 'assets/img/education/showcase-1.webp' %});">
       <div class="container position-relative">
         <h1>Academics</h1>
         <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
@@ -29,7 +29,7 @@ academics page
           <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
               <div class="intro-image">
-                <img src="assets/img/education/education-1.webp" alt="Academic Programs" class="img-fluid rounded-lg shadow">
+                <img src="{% static 'assets/img/education/education-1.webp' %}" alt="Academic Programs" class="img-fluid rounded-lg shadow">
                 <div class="accent-shape"></div>
               </div>
             </div>
@@ -417,7 +417,7 @@ academics page
                 <div class="row align-items-center">
                   <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
                     <div class="featured-program-image">
-                      <img src="assets/img/education/education-5.webp" alt="Artificial Intelligence Program" class="img-fluid">
+                      <img src="{% static 'assets/img/education/education-5.webp' %}" alt="Artificial Intelligence Program" class="img-fluid">
                       <div class="program-label">
                         <span>Featured</span>
                       </div>
